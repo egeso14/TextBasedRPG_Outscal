@@ -155,7 +155,7 @@
   <ItemGroup>
     <ClInclude Include="Armor.h" />
     <ClInclude Include="AttackAttributes.h" />
-    <ClInclude Include="Conditions.h" />
+    <ClInclude Include="Condition.h" />
     <ClInclude Include="ConditionTypes.h" />
     <ClInclude Include="EnemyAttack.h" />
     <ClInclude Include="EnemyAttackTypes.h" />

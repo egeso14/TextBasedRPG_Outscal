@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyEncounter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:EnemyEncounter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Attack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Attack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Condition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Condition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ConditionTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:ConditionTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\SFML\\include\\SFML\\Graphics\\Color.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SFML\\include\\SFML\\Graphics\\Color.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ITargetable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:ITargetable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EncounterTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:EncounterTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Attack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Attack.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyEncounter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:EnemyEncounter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Conditions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Conditions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ConditionTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:ConditionTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Level.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -43,20 +63,12 @@
       "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:UIManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\AttackFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:AttackFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\AttackFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:AttackFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -197,16 +209,8 @@
       "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:Treasure.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ITargetable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:ITargetable.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\GameEvents.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:GameEvents.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EncounterTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|solutionrelative:EncounterTypes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43D58C4D-C4D3-4FD1-8C56-F7ABB55305C6}|TextBasedRPG_Outscal.vcxproj|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\AttackAttributes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -245,10 +249,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xfilesystem_abi.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\SFML\\include\\SFML\\Graphics\\Color.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SFML\\include\\SFML\\Graphics\\Color.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -262,7 +262,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Utility.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Utility.h",
               "RelativeDocumentMoniker": "Utility.h",
@@ -275,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Attack.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Attack.h",
               "RelativeDocumentMoniker": "Attack.h",
@@ -284,8 +284,7 @@
               "ViewState": "AgIAAA4AAAAAAAAAAAAAACYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-06T17:01:36.303Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -293,31 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
-              "Title": "ConvexShape.hpp",
-              "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\SFML\\include\\SFML\\Graphics\\ConvexShape.hpp",
-              "RelativeDocumentMoniker": "SFML\\include\\SFML\\Graphics\\ConvexShape.hpp",
-              "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\SFML\\include\\SFML\\Graphics\\ConvexShape.hpp",
-              "RelativeToolTip": "SFML\\include\\SFML\\Graphics\\ConvexShape.hpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-18T20:20:42.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 61,
-              "Title": "algorithm",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\algorithm",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\algorithm",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\algorithm",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\algorithm",
-              "ViewState": "AgIAADgAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-18T20:20:41.479Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "xfilesystem_abi.h",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xfilesystem_abi.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xfilesystem_abi.h",
@@ -329,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 5,
               "Title": "Color.hpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\SFML\\include\\SFML\\Graphics\\Color.hpp",
               "RelativeDocumentMoniker": "SFML\\include\\SFML\\Graphics\\Color.hpp",
@@ -337,72 +312,77 @@
               "RelativeToolTip": "SFML\\include\\SFML\\Graphics\\Color.hpp",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-18T20:19:57.513Z"
+              "WhenOpened": "2025-03-18T20:19:57.513Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ConditionTypes.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ConditionTypes.h",
               "RelativeDocumentMoniker": "ConditionTypes.h",
               "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ConditionTypes.h",
               "RelativeToolTip": "ConditionTypes.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-18T20:12:39.072Z"
+              "WhenOpened": "2025-03-18T20:12:39.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Conditions.h",
-              "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Conditions.h",
-              "RelativeDocumentMoniker": "Conditions.h",
-              "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Conditions.h",
-              "RelativeToolTip": "Conditions.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Condition.h",
+              "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Condition.h",
+              "RelativeDocumentMoniker": "Condition.h",
+              "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Condition.h",
+              "RelativeToolTip": "Condition.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-18T20:10:47.887Z"
+              "WhenOpened": "2025-03-18T20:10:47.887Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EnemyEncounter.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyEncounter.cpp",
               "RelativeDocumentMoniker": "EnemyEncounter.cpp",
               "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyEncounter.cpp",
               "RelativeToolTip": "EnemyEncounter.cpp",
-              "ViewState": "AgIAABkBAAAAAAAAAAAAAC4BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-17T04:52:18.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
               "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Player.cpp",
               "RelativeToolTip": "Player.cpp",
-              "ViewState": "AgIAADUAAAAAAAAAAAAhwCAAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-17T03:48:29.291Z"
+              "WhenOpened": "2025-02-17T03:48:29.291Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "Enemy.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Enemy.cpp",
               "RelativeDocumentMoniker": "Enemy.cpp",
               "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Enemy.cpp",
               "RelativeToolTip": "Enemy.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-17T03:59:38.524Z"
+              "WhenOpened": "2025-02-17T03:59:38.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "EnemyEncounter.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyEncounter.h",
               "RelativeDocumentMoniker": "EnemyEncounter.h",
@@ -410,25 +390,24 @@
               "RelativeToolTip": "EnemyEncounter.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-17T04:40:16.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-17T04:40:16.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "Enemy.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Enemy.h",
               "RelativeDocumentMoniker": "Enemy.h",
               "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Enemy.h",
               "RelativeToolTip": "Enemy.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-17T03:59:53.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
@@ -440,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "UIManager.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\UIManager.cpp",
               "RelativeDocumentMoniker": "UIManager.cpp",
@@ -452,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "UIManager.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\UIManager.h",
               "RelativeDocumentMoniker": "UIManager.h",
@@ -464,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Game.h",
               "RelativeDocumentMoniker": "Game.h",
@@ -476,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Level.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Level.cpp",
               "RelativeDocumentMoniker": "Level.cpp",
@@ -488,7 +467,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 7,
+              "Title": "EncounterTypes.h",
+              "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EncounterTypes.h",
+              "RelativeDocumentMoniker": "EncounterTypes.h",
+              "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EncounterTypes.h",
+              "RelativeToolTip": "EncounterTypes.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-17T04:19:22.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITargetable.h",
+              "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ITargetable.h",
+              "RelativeDocumentMoniker": "ITargetable.h",
+              "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ITargetable.h",
+              "RelativeToolTip": "ITargetable.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-15T22:14:10.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "algorithm",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\algorithm",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\algorithm",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\algorithm",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\algorithm",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-18T20:20:41.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ConvexShape.hpp",
+              "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\SFML\\include\\SFML\\Graphics\\ConvexShape.hpp",
+              "RelativeDocumentMoniker": "SFML\\include\\SFML\\Graphics\\ConvexShape.hpp",
+              "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\SFML\\include\\SFML\\Graphics\\ConvexShape.hpp",
+              "RelativeToolTip": "SFML\\include\\SFML\\Graphics\\ConvexShape.hpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-18T20:20:42.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "EquipmentSlots.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EquipmentSlots.h",
               "RelativeDocumentMoniker": "EquipmentSlots.h",
@@ -500,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "EnemyAttackTypes.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyAttackTypes.h",
               "RelativeDocumentMoniker": "EnemyAttackTypes.h",
@@ -512,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "AttackFactory.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\AttackFactory.h",
               "RelativeDocumentMoniker": "AttackFactory.h",
@@ -524,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Attack.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Attack.cpp",
               "RelativeDocumentMoniker": "Attack.cpp",
@@ -536,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "EnemyAttack.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyAttack.cpp",
               "RelativeDocumentMoniker": "EnemyAttack.cpp",
@@ -548,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Utility.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Utility.cpp",
               "RelativeDocumentMoniker": "Utility.cpp",
@@ -560,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "AttackFactory.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\AttackFactory.cpp",
               "RelativeDocumentMoniker": "AttackFactory.cpp",
@@ -572,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "StatSheet.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\StatSheet.h",
               "RelativeDocumentMoniker": "StatSheet.h",
@@ -584,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "memory",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\memory",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\memory",
@@ -596,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "Exception.hpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\SFML\\include\\SFML\\System\\Exception.hpp",
               "RelativeDocumentMoniker": "SFML\\include\\SFML\\System\\Exception.hpp",
@@ -608,7 +637,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "EnumWrapper.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnumWrapper.h",
               "RelativeDocumentMoniker": "EnumWrapper.h",
@@ -620,7 +649,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "ItemTypes.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ItemTypes.h",
               "RelativeDocumentMoniker": "ItemTypes.h",
@@ -632,7 +661,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "Item.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Item.h",
               "RelativeDocumentMoniker": "Item.h",
@@ -644,7 +673,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Game.cpp",
               "RelativeDocumentMoniker": "Game.cpp",
@@ -656,7 +685,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "unordered_map",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\unordered_map",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\unordered_map",
@@ -668,7 +697,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "EnemyAttack.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyAttack.h",
               "RelativeDocumentMoniker": "EnemyAttack.h",
@@ -680,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Item.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Item.cpp",
               "RelativeDocumentMoniker": "Item.cpp",
@@ -692,7 +721,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "xutility",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xutility",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xutility",
@@ -704,7 +733,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "EnemyFactory.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemyFactory.h",
               "RelativeDocumentMoniker": "EnemyFactory.h",
@@ -716,7 +745,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "vector",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\vector",
@@ -728,7 +757,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "Encounter.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Encounter.cpp",
               "RelativeDocumentMoniker": "Encounter.cpp",
@@ -740,7 +769,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "xmemory",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xmemory",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\include\\xmemory",
@@ -752,7 +781,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "Encounter.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Encounter.h",
               "RelativeDocumentMoniker": "Encounter.h",
@@ -764,7 +793,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "LevelManager.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\LevelManager.h",
               "RelativeDocumentMoniker": "LevelManager.h",
@@ -776,7 +805,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "Level.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Level.h",
               "RelativeDocumentMoniker": "Level.h",
@@ -788,7 +817,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "Equipment.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Equipment.cpp",
               "RelativeDocumentMoniker": "Equipment.cpp",
@@ -800,7 +829,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "BattleOptions.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\BattleOptions.h",
               "RelativeDocumentMoniker": "BattleOptions.h",
@@ -812,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "Equipment.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Equipment.h",
               "RelativeDocumentMoniker": "Equipment.h",
@@ -824,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "MysteryEncounter.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\MysteryEncounter.cpp",
               "RelativeDocumentMoniker": "MysteryEncounter.cpp",
@@ -836,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "EnemySpecies.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EnemySpecies.h",
               "RelativeDocumentMoniker": "EnemySpecies.h",
@@ -848,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "PlayerAttackTypes.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\PlayerAttackTypes.h",
               "RelativeDocumentMoniker": "PlayerAttackTypes.h",
@@ -860,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "TreasureEncounter.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\TreasureEncounter.cpp",
               "RelativeDocumentMoniker": "TreasureEncounter.cpp",
@@ -872,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "Treasure.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Treasure.cpp",
               "RelativeDocumentMoniker": "Treasure.cpp",
@@ -884,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "YesNo.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\YesNo.h",
               "RelativeDocumentMoniker": "YesNo.h",
@@ -896,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 48,
               "Title": "Stats.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Stats.h",
               "RelativeDocumentMoniker": "Stats.h",
@@ -908,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 49,
               "Title": "Armor.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Armor.h",
               "RelativeDocumentMoniker": "Armor.h",
@@ -920,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "TreasureEncounter.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\TreasureEncounter.h",
               "RelativeDocumentMoniker": "TreasureEncounter.h",
@@ -932,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "Treasure.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\Treasure.h",
               "RelativeDocumentMoniker": "Treasure.h",
@@ -944,19 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "ITargetable.h",
-              "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ITargetable.h",
-              "RelativeDocumentMoniker": "ITargetable.h",
-              "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\ITargetable.h",
-              "RelativeToolTip": "ITargetable.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-15T22:14:10.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "GameEvents.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\GameEvents.h",
               "RelativeDocumentMoniker": "GameEvents.h",
@@ -968,19 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "EncounterTypes.h",
-              "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EncounterTypes.h",
-              "RelativeDocumentMoniker": "EncounterTypes.h",
-              "ToolTip": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\EncounterTypes.h",
-              "RelativeToolTip": "EncounterTypes.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-17T04:19:22.301Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "AttackAttributes.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\AttackAttributes.h",
               "RelativeDocumentMoniker": "AttackAttributes.h",
@@ -992,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "PlayerClasses.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\PlayerClasses.h",
               "RelativeDocumentMoniker": "PlayerClasses.h",
@@ -1004,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "TextBasedRPG_Outscal.cpp",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\TextBasedRPG_Outscal.cpp",
               "RelativeDocumentMoniker": "TextBasedRPG_Outscal.cpp",
@@ -1016,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "MysteryEncounter.h",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\TextBasedRPG_Outscal\\src\\MysteryEncounter.h",
               "RelativeDocumentMoniker": "MysteryEncounter.h",
@@ -1028,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "Utf.inl",
               "DocumentMoniker": "C:\\Users\\egeyi\\Outscal\\TextBasedRPG\\lib\\SFML\\SFML-3.0.0\\include\\SFML\\System\\Utf.inl",
               "RelativeDocumentMoniker": "..\\..\\lib\\SFML\\SFML-3.0.0\\include\\SFML\\System\\Utf.inl",

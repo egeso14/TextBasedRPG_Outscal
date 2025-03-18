@@ -203,7 +203,7 @@
     <ClInclude Include="YesNo.h">
       <Filter>Header Files\Enums</Filter>
     </ClInclude>
-    <ClInclude Include="Conditions.h">
+    <ClInclude Include="Condition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ConditionTypes.h">
