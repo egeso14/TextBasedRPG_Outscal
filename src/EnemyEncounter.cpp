@@ -84,31 +84,41 @@ void EnemyEncounter::TakeEnemyActions()
 		const Attack& attack = enemy->ChooseAttack();
 		if (Utility::TestAgainstProb(attack.GetHitChance()))
 		{
+			bool crit = Utility::TestAgainstProb(attack.GetCritChance());
 			Utility::PrintToConsole(true, enemy->GetSpecies(), " performs ", std::get<EnumWrapper<EnemyAttackTypes>>(attack.GetAttackType()));
+			if (crit)
+			{
+				Utility::PrintToConsole(true, " EXCEPTIONALLY, it is a Crit!!");
+			}
+			else {
+				Utility::PrintToConsole(true, " ");
+			}
 			for (auto attributeTuple : attack.GetAttributes())
 			{
 				AttackAttributes attribute = std::get<0>(attributeTuple).get();
 				Target target = std::get<1>(attributeTuple).get();
 				float value = std::get<2>(attributeTuple);
+				
 				switch (attribute)
 				{
 				case AttackAttributes::Damage:
 					if (target == Target::self)
 					{
-						HandleDamage(selfList, attack.GetDamage(thePlayer->GetStats(), value));
+						HandleDamage(selfList, attack.GetDamage(thePlayer->GetStats(), value, false));
 					}
 					else {
-						HandleDamage(targets, attack.GetDamage(thePlayer->GetStats(), value));
+						
+						HandleDamage(targets, attack.GetDamage(thePlayer->GetStats(), value, crit));
 					}
 					break;
 				case AttackAttributes::Heal:
 					if (target == Target::self)
 					{
-						HandleHeal(selfList, attack.GetDamage(thePlayer->GetStats(), value));
+						HandleHeal(selfList, attack.GetDamage(thePlayer->GetStats(), value, false));
 					}
 					else
 					{
-						HandleHeal(targets, attack.GetDamage(thePlayer->GetStats(), value));
+						HandleHeal(targets, attack.GetDamage(thePlayer->GetStats(), value, crit));
 					}
 				default:
 					break;
@@ -256,8 +266,15 @@ void EnemyEncounter::HandlePlayerAttack(Attack attack)
 		Utility::PrintToConsole(true, thePlayer->getName(), " tries to perform ", std::get<EnumWrapper<PlayerAttackTypes>>(attack.GetAttackType()), ", but fails...");
 		return;
 	}
-
-	Utility::PrintToConsole(true, thePlayer->getName(), " performs ", std::get<EnumWrapper<PlayerAttackTypes>>(attack.GetAttackType()));
+	bool crit = Utility::TestAgainstProb(attack.GetCritChance());
+	Utility::PrintToConsole(false, thePlayer->getName(), " performs ", std::get<EnumWrapper<PlayerAttackTypes>>(attack.GetAttackType()));
+	if (crit)
+	{
+		Utility::PrintToConsole(true, " EXCEPTIONALLY, it is a Crit!!");
+	}
+	else {
+		Utility::PrintToConsole(true, " ");
+	}
 	// point of seperation between attack being performed an its effects
 	
 	for (auto attributeTuple : attack.GetAttributes())
@@ -265,25 +282,28 @@ void EnemyEncounter::HandlePlayerAttack(Attack attack)
 		AttackAttributes attribute = std::get<0>(attributeTuple).get();
 		Target target = std::get<1>(attributeTuple).get();
 		float value = std::get<2>(attributeTuple);
+		
 		switch (attribute)
 		{
 		case AttackAttributes::Damage:
 			if (target == Target::self)
 			{
-				HandleDamage(selfList, attack.GetDamage(thePlayer->GetStats(), value));
+				// can't crit self
+				HandleDamage(selfList, attack.GetDamage(thePlayer->GetStats(), value, false));
 			}
 			else {
-				HandleDamage(targets, attack.GetDamage(thePlayer->GetStats(), value));
+				
+				HandleDamage(targets, attack.GetDamage(thePlayer->GetStats(), value, crit));
 			}
 			break;
 		case AttackAttributes::Heal:
 			if (target == Target::self)
 			{
-				HandleHeal(selfList ,attack.GetDamage(thePlayer->GetStats(), value));
+				HandleHeal(selfList ,attack.GetDamage(thePlayer->GetStats(), value, crit));
 			}
 			else 
 			{
-				HandleHeal(targets, attack.GetDamage(thePlayer->GetStats(), value));
+				HandleHeal(targets, attack.GetDamage(thePlayer->GetStats(), value, crit));
 			}
 		default:
 			break;

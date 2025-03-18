@@ -42,6 +42,8 @@ public:
 	void OnLevelUp(int level);
 	void LearnStartingAttacks();
 	bool IsDead();
+	void InflictCondition(Condition* condition) {};
+	void UpdateConditions() {} ;
 	inline StatSheet* GetStats() { return stats; }
 	const std::vector<Attack>& GetAttacks() { return knownAttacks; }
 	const std::string getName() { return name; }

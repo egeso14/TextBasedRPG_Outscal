@@ -19,6 +19,8 @@ public:
 	std::string GetReaminingHealthString();
 	const StatSheet& GetStats() const { return *stats; }
 	const Attack& ChooseAttack();
+	void InflictCondition(Condition* condition) {} ;
+	void UpdateConditions() {} ;
 	~Enemy();
 		
 private:

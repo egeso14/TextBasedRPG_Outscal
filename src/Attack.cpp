@@ -1,7 +1,7 @@
 #include "Attack.h"
 #include "StatSheet.h"
 
-float Attack::GetDamage(const StatSheet* stats, float multiplier) const
+float Attack::GetDamage(const StatSheet* stats, float multiplier, bool isCrit) const
 {
 	return multiplier * stats->GetStat(scalingStat);
 }

@@ -26,7 +26,7 @@ public:
 		attributes(attributes), scalingStat(scalingStat), description(description), type(EnumWrapper<EnemyAttackTypes>(type)) {
 	}
 
-	float GetDamage(const StatSheet* stats, float multiplier) const;
+	float GetDamage(const StatSheet* stats, float multiplier, bool isCrit) const;
 	const void PrintAttackInfo();
 
 	const inline int GetNumTargets() const
@@ -57,6 +57,18 @@ public:
 			}
 		}
 		return hitChance;
+	}
+	const inline float GetCritChance() const
+	{
+		float critChance = 0;
+		for (auto attribute : attributes)
+		{
+			if (std::get<0>(attribute).get() == AttackAttributes::Crit)
+			{
+				critChance = std::get<2>(attribute);
+			}
+		}
+		return critChance;
 	}
 
 	const inline std::vector<std::tuple<EnumWrapper<AttackAttributes>, EnumWrapper<Target>, float>>& GetAttributes() const

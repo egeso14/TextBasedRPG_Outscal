@@ -136,13 +136,13 @@ C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\SFML\include\SFML\S
       C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\SFML\include\SFML\System\Exception.hpp(41,23):
       see declaration of 'sf::Exception'
   
-C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(189,2): warning C4065: switch statement contains 'default' but no 'case' labels
-C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(216,32): warning C4101: 'e': unreferenced local variable
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(199,2): warning C4065: switch statement contains 'default' but no 'case' labels
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(226,32): warning C4101: 'e': unreferenced local variable
 C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(257,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'EnemyEncounter.cpp')
       C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(257,26):
       the template instantiation context (the oldest one first) is
-          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(244,88):
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(254,88):
           see reference to function template instantiation 'std::vector<EnumWrapper<EnemySpecies> *,std::allocator<EnumWrapper<EnemySpecies> *>> UIManager::ChooseMultipleOptionsRef<EnemySpecies>(std::vector<EnumWrapper<EnemySpecies>,std::allocator<EnumWrapper<EnemySpecies>>> &,size_t)' being compiled
   
 C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
@@ -163,7 +163,7 @@ C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(19,26):
   (compiling source file 'EnemyEncounter.cpp')
       C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(19,26):
       the template instantiation context (the oldest one first) is
-          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(317,72):
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(337,72):
           see reference to function template instantiation 'EnumWrapper<PlayerAttackTypes> UIManager::ChooseOptions<PlayerAttackTypes>(const std::vector<EnumWrapper<PlayerAttackTypes>,std::allocator<EnumWrapper<PlayerAttackTypes>>> &)' being compiled
   
 C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
