@@ -1,0 +1,275 @@
+﻿  AttackFactory.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'AttackFactory.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:             _Ty=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         ]
+  (compiling source file 'AttackFactory.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47):
+      the template instantiation context (the oldest one first) is
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\AttackFactory.cpp(7,3):
+          see reference to function template instantiation 'std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,double,0>(_This2 &&,EnumWrapper<Target> &&,double &&) noexcept' being compiled
+          with
+          [
+              _This2=EnumWrapper<AttackAttributes>
+          ]
+              C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\AttackFactory.cpp(4,43):
+              see the first reference to 'std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>::tuple' in 'void __cdecl `dynamic initializer for 'private: static std::unordered_map<PlayerAttackTypes,std::vector<std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>,std::allocator<std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float> > >,std::hash<PlayerAttackTypes>,std::equal_to<PlayerAttackTypes>,std::allocator<std::pair<PlayerAttackTypes const ,std::vector<std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>,std::allocator<std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float> > > > > > AttackFactory::p_attributeValuesPerType''(void)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(361,16):
+          see reference to function template instantiation 'std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>::tuple<std::_Exact_args_t,_Ty,EnumWrapper<Target>,double,0>(_Tag,_This2 &&,EnumWrapper<Target> &&,double &&)' being compiled
+          with
+          [
+              _Ty=EnumWrapper<AttackAttributes>,
+              _Tag=std::_Exact_args_t,
+              _This2=EnumWrapper<AttackAttributes>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(315,18):
+          see reference to function template instantiation 'std::tuple<EnumWrapper<Target>,float>::tuple<std::_Exact_args_t,_Ty,double,0>(_Tag,_This2 &&,double &&)' being compiled
+          with
+          [
+              _Ty=EnumWrapper<Target>,
+              _Tag=std::_Exact_args_t,
+              _This2=EnumWrapper<Target>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(315,18):
+          see reference to function template instantiation 'std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' being compiled
+          with
+          [
+              _Ty=double,
+              _Tag=std::_Exact_args_t,
+              _This2=double
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(315,102):
+          see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=double,
+              _Other=double
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:             _Ty=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47): warning C4244:         ]
+  (compiling source file 'AttackFactory.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(143,47):
+      the template instantiation context (the oldest one first) is
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\AttackFactory.cpp(13,3):
+          see reference to function template instantiation 'std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,int,0>(_This2 &&,EnumWrapper<Target> &&,int &&) noexcept' being compiled
+          with
+          [
+              _This2=EnumWrapper<AttackAttributes>
+          ]
+              C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\AttackFactory.cpp(4,43):
+              see the first reference to 'std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>::tuple' in 'void __cdecl `dynamic initializer for 'private: static std::unordered_map<PlayerAttackTypes,std::vector<std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>,std::allocator<std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float> > >,std::hash<PlayerAttackTypes>,std::equal_to<PlayerAttackTypes>,std::allocator<std::pair<PlayerAttackTypes const ,std::vector<std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>,std::allocator<std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float> > > > > > AttackFactory::p_attributeValuesPerType''(void)'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(361,16):
+          see reference to function template instantiation 'std::tuple<EnumWrapper<AttackAttributes>,EnumWrapper<Target>,float>::tuple<std::_Exact_args_t,_Ty,EnumWrapper<Target>,int,0>(_Tag,_This2 &&,EnumWrapper<Target> &&,int &&)' being compiled
+          with
+          [
+              _Ty=EnumWrapper<AttackAttributes>,
+              _Tag=std::_Exact_args_t,
+              _This2=EnumWrapper<AttackAttributes>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(315,18):
+          see reference to function template instantiation 'std::tuple<EnumWrapper<Target>,float>::tuple<std::_Exact_args_t,_Ty,int,0>(_Tag,_This2 &&,int &&)' being compiled
+          with
+          [
+              _Ty=EnumWrapper<Target>,
+              _Tag=std::_Exact_args_t,
+              _This2=EnumWrapper<Target>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(315,18):
+          see reference to function template instantiation 'std::tuple<float>::tuple<std::_Exact_args_t,_Ty,,0>(_Tag,_This2 &&)' being compiled
+          with
+          [
+              _Ty=int,
+              _Tag=std::_Exact_args_t,
+              _This2=int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\tuple(315,102):
+          see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+          with
+          [
+              _This=float,
+              _Ty=int,
+              _Other=int
+          ]
+  
+  EnemyAttack.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyAttack.h(18,107): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'EnemyAttack.cpp')
+  
+  Attack.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Attack.cpp')
+  
+  Encounter.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Encounter.cpp')
+  
+  Enemy.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Enemy.cpp')
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Enemy.cpp(73,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  EnemyEncounter.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'EnemyEncounter.cpp')
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'EnemyEncounter.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(189,2): warning C4065: switch statement contains 'default' but no 'case' labels
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(216,32): warning C4101: 'e': unreferenced local variable
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(257,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'EnemyEncounter.cpp')
+      C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(257,26):
+      the template instantiation context (the oldest one first) is
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(244,88):
+          see reference to function template instantiation 'std::vector<EnumWrapper<EnemySpecies> *,std::allocator<EnumWrapper<EnemySpecies> *>> UIManager::ChooseMultipleOptionsRef<EnemySpecies>(std::vector<EnumWrapper<EnemySpecies>,std::allocator<EnumWrapper<EnemySpecies>>> &,size_t)' being compiled
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,65): warning C4244:         with
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,65): warning C4244:         [
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,65): warning C4244:             T=float
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,65): warning C4244:         ]
+  (compiling source file 'EnemyEncounter.cpp')
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,52): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,52): warning C4244:         with
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,52): warning C4244:         [
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,52): warning C4244:             T=float
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(262,52): warning C4244:         ]
+  (compiling source file 'EnemyEncounter.cpp')
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(19,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'EnemyEncounter.cpp')
+      C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(19,26):
+      the template instantiation context (the oldest one first) is
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\EnemyEncounter.cpp(317,72):
+          see reference to function template instantiation 'EnumWrapper<PlayerAttackTypes> UIManager::ChooseOptions<PlayerAttackTypes>(const std::vector<EnumWrapper<PlayerAttackTypes>,std::allocator<EnumWrapper<PlayerAttackTypes>>> &)' being compiled
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244:         with
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244:         [
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244:             T=float
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244:         ]
+  (compiling source file 'EnemyEncounter.cpp')
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244:         with
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244:         [
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244:             T=float
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244:         ]
+  (compiling source file 'EnemyEncounter.cpp')
+  
+  Equipment.cpp
+  Game.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Game.cpp')
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3465,56): warning C4244: 'argument': conversion from '_Ty' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3465,56): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3465,56): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3465,56): warning C4244:             _Ty=double
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3465,56): warning C4244:         ]
+  (compiling source file 'Game.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\memory(3465,56):
+      the template instantiation context (the oldest one first) is
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\LevelManager.h(27,25):
+          see reference to function template instantiation 'std::unique_ptr<Level,std::default_delete<Level>> std::make_unique<Level,Player*&,std::vector<std::unique_ptr<EnemyEncounter,std::default_delete<EnemyEncounter>>,std::allocator<std::unique_ptr<EnemyEncounter,std::default_delete<EnemyEncounter>>>>,double,0>(Player *&,std::vector<std::unique_ptr<EnemyEncounter,std::default_delete<EnemyEncounter>>,std::allocator<std::unique_ptr<EnemyEncounter,std::default_delete<EnemyEncounter>>>> &&,double &&)' being compiled
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(19,26): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Game.cpp')
+      C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(19,26):
+      the template instantiation context (the oldest one first) is
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Game.cpp(43,43):
+          see reference to function template instantiation 'EnumWrapper<YesNo> UIManager::ChooseOptions<YesNo>(const std::vector<EnumWrapper<YesNo>,std::allocator<EnumWrapper<YesNo>>> &)' being compiled
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244:         with
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244:         [
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244:             T=float
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,65): warning C4244:         ]
+  (compiling source file 'Game.cpp')
+  
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244:         with
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244:         [
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244:             T=float
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\UIManager.h(24,52): warning C4244:         ]
+  (compiling source file 'Game.cpp')
+  
+  Item.cpp
+  Level.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Level.cpp')
+  
+  MysteryEncounter.cpp
+  Player.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Player.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:             _Ty=int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         and
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:             _Ty2=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54): warning C4244:         ]
+  (compiling source file 'Player.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\utility(250,54):
+      the template instantiation context (the oldest one first) is
+          C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Player.cpp(37,2):
+          see reference to function template instantiation 'std::pair<const int,float>::pair<int,int,0>(_Other1 &&,_Other2 &&) noexcept' being compiled
+          with
+          [
+              _Other1=int,
+              _Other2=int
+          ]
+              C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Player.cpp(36,60):
+              see the first reference to 'std::pair<const int,float>::pair' in 'void __cdecl `dynamic initializer for 'private: static std::unordered_map<int,float,std::hash<int>,std::equal_to<int>,std::allocator<std::pair<int const ,float> > > Player::levelUpThresholds''(void)'
+  
+  TextBasedRPG_Outscal.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\Attack.h(39,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'TextBasedRPG_Outscal.cpp')
+  
+  Treasure.cpp
+  TreasureEncounter.cpp
+  UIManager.cpp
+C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\SFML\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'UIManager.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\SFML\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+  Utility.cpp
+  Generating Code...
+  TextBasedRPG_Outscal.vcxproj -> C:\Users\egeyi\Outscal\TextBasedRPG\TextBasedRPG_Outscal\src\x64\Debug\TextBasedRPG_Outscal.exe
