@@ -2,6 +2,7 @@
 #include "PlayerClasses.h"
 #include "EnemySpecies.h"
 #include "Stats.h"
+#include "assert.h"
 
 struct StatSheet {
     // Constructor for Player Classes
@@ -29,6 +30,13 @@ struct StatSheet {
     float currentMaxHP;
     float currentMaxAtk;
     float currentMaxDef;
+
+    float tempDefBoost; // in % of currentMax
+    float tempAtkBoost; // in % of currentMax
+
+    float persistentAtkBoost;
+    float persistentDefBoost;
+    float persistentHPBoost;
 
     // Function to retrieve stat values
     float GetStat(Stats stat) const {
@@ -110,5 +118,79 @@ private:
         baseAtk = currentAtk = currentMaxAtk = atk;
         baseDef = currentDef = currentMaxDef = def;
         baseHP = currentHP = currentMaxHP = hp;
+    }
+    // temp stat changes
+    void ClearTemporaryBoosts()
+    {
+        tempAtkBoost = 0;
+        tempDefBoost = 0;
+
+        RecalculateStats();
+
+    }
+
+    void ChangeTemporaryBoost(float amount, Stats stat)
+    {
+        if (stat == Stats::Attack)
+        {
+            tempAtkBoost += amount;
+        }
+        if (stat == Stats::Defense)
+        {
+            tempDefBoost += amount;
+        }
+    }
+
+    void RecalculateStats()
+    {
+        currentAtk = currentMaxAtk + currentMaxAtk * tempAtkBoost;
+        currentDef = currentMaxDef + currentMaxDef * tempDefBoost;
+    }
+    // persistent stat changes
+    void ChangeTemporaryBoost(float amount, Stats stat)
+    {
+        if (stat == Stats::Attack)
+        {
+            persistentAtkBoost += amount;
+        }
+        if (stat == Stats::Defense)
+        {
+            persistentDefBoost += amount;
+        }
+        if (stat == Stats::HP)
+        {
+            persistentHPBoost += amount;
+        }
+    }
+
+    void RecalculateMaxStats()
+    {
+        // at this point temp stat changes should be 0
+        assert(tempAtkBoost == 0);
+        assert(tempDefBoost == 0);
+
+        currentMaxAtk = baseAtk + baseAtk * persistentAtkBoost;
+        currentMaxDef = baseDef + baseDef * persistentDefBoost;
+        currentMaxHP = baseHP + baseHP * persistentHPBoost;
+
+        RecalculateStats();
+    }
+
+    void ChangePersistentBoost(float amount, Stats stat)
+    {
+        if (stat == Stats::Attack)
+        {
+            persistentAtkBoost += amount;
+        }
+        if (stat == Stats::Defense)
+        {
+            persistentDefBoost += amount;
+        }
+        if (stat == Stats::HP)
+        {
+            persistentHPBoost += amount;
+        }
+
+        RecalculateMaxStats();
     }
 };

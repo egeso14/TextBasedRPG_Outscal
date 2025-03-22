@@ -231,6 +231,18 @@ void EnemyEncounter::HandleDamage(std::vector<ITargetable*>& targets, float amou
 	}
 }
 
+void EnemyEncounter::ApplyCondition(std::vector<ITargetable*>& targets, Condition condition)
+{
+}
+
+void EnemyEncounter::TickConditions(ITargetable* target)
+{
+}
+
+void EnemyEncounter::ClearConditions()
+{
+}
+
 void EnemyEncounter::HandlePlayerAttack(Attack attack)
 {
 	int attackTargets = attack.GetNumTargets();

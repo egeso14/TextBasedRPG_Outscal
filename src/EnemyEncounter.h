@@ -3,6 +3,7 @@
 #include "Enemy.h"
 #include "BattleOptions.h"
 #include "EnumWrapper.h"
+#include "Condition.h"
 #include "Item.h"
 #include <vector>
 
@@ -47,7 +48,8 @@ private:
 	void HandleHeal(std::vector<ITargetable*>& targets, float healAmount);
 	void HandleDamage(std::vector<ITargetable*>& targets, float damage);
 	//void HandleStatChange(std::vector<ITargetable*>& targets, )
-
-	
+	void ApplyCondition(std::vector<ITargetable*>& targets, Condition condition);
+	void TickConditions(ITargetable* target);
+	void ClearConditions();
 };
 
